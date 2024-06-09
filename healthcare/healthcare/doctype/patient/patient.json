@@ -387,6 +387,7 @@
    "collapsible": 1,
    "fieldname": "customer_details_section",
    "fieldtype": "Section Break",
+   "hidden": 1,
    "label": "Customer Details"
   },
   {
@@ -444,9 +445,10 @@
   },
   {
    "allow_in_quick_entry": 1,
-   "default": "1",
+   "default": "0",
    "fieldname": "invite_user",
    "fieldtype": "Check",
+   "hidden": 1,
    "label": "Invite as User",
    "no_copy": 1,
    "read_only_depends_on": "eval: doc.user_id"
@@ -489,10 +491,11 @@
  "image_field": "image",
  "links": [],
  "max_attachments": 50,
- "modified": "2023-01-13 17:48:59.069268",
+ "modified": "2024-05-23 21:50:51.435626",
  "modified_by": "Administrator",
  "module": "Healthcare",
  "name": "Patient",
+ "naming_rule": "By \"Naming Series\" field",
  "owner": "Administrator",
  "permissions": [
   {
